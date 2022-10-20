@@ -4,34 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Calendar</title>
 </head>
 <body>
-    <!-- <form action="">
-        <label for="time">
-            <span>Time</span>
-            <input type="time" id="time" name="time">
-        </label>
-        <label for="date">
-            <span>Date</span>
-            <input type="date" id="date" name="date">
-        </label>
-        <label for="week">
-            <span>Week</span>
-            <input type="week" id="week" name="week">
-        </label> 
-        <label for="month">
-            <span>Month</span>
-            <input type="month" id="month" name="month">
-        </label>
-        <input type="submit">
-    </form> -->
-    <form action="">
-        <label for="calendar">
-            <span>Calendar</span>
-            <input type="datetime-local" name="calendar" id="calendar">
-        </label>
-        <input type="submit" value="submit">
-    </form>
+    <main>
+        <form action="">
+            <label for="name">
+                <span>¡What is your name?</span>
+                <input type="text" name="name" id="name" autocomplete="name" required>
+            </label>
+            <label for="mail">
+                <span>Email</span>
+                <input type="email" name="mail" id="mail" autocomplete="email" required>
+            </label>
+            <label for="country">
+                <span>Country</span>
+                <input type="text" name="country" id="country" autocomplete="country" required>
+            </label>
+            <label for="PO BOX">
+                <span>Postal Code</span>
+                <input type="text" name="cp" id="co" autocomplete="postal-code" required>
+            </label>
+            <input type="submit" value="submit">
+        </form>
+    </main>
 </body>
 </html>
