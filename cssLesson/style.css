@@ -1,23 +1,26 @@
-
-/* ways to implement css */
-/*naming it with the tag*/
-body{
-    background-color: rgb(45, 38, 38);
-    font-size: 2em;
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #304C89;
 }
-
-p{
-    color: aliceblue;
+.main-nav__item {
+    display: inline-block;
 }
-
-/* class */
-.paragraph{
-    color: cornflowerblue;
+/* Pseudo-class */
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
 }
-
-/* ID */
-
-#text{
-    color: lightskyblue;
-    font-size: 24px;
+.main-nav__item a:hover {
+    color: #c8d5f4;
+}
+.main-nav__item a:active {
+    color: #FE4A49;
+}
+/* Pseudo-elements :: */
+.main-nav__item a::after {
+    content: " | ";
 }
