@@ -1,0 +1,23 @@
+
+/* ways to implement css */
+/*naming it with the tag*/
+body{
+    background-color: rgb(45, 38, 38);
+    font-size: 2em;
+}
+
+p{
+    color: aliceblue;
+}
+
+/* class */
+.paragraph{
+    color: cornflowerblue;
+}
+
+/* ID */
+
+#text{
+    color: lightskyblue;
+    font-size: 24px;
+}
