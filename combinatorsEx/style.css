@@ -6,41 +6,36 @@
 }
 
 body {
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(220, 220, 220);
 }
 
 h1 {
-    color: rgb(26, 25, 25);
+    color: rgb(60, 59, 59);
     margin-bottom: 10px;
 }
 
 .title {
-    font-size: 18px;
+  font-size: 25px;  
 }
 .nav {
     margin-top: 10px;
     list-style-type: none;
     padding-left: 0;
 }
-
 .nav li {
     display: inline-block;
 }
-
 .nav a {
     color: white;
-    background-color: rgb(52, 99, 238);
+    background-color: rgb(48, 78, 211);
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
 }
 .nav a:hover {
-    background-color: rgb(75, 120, 254);
+    background-color: rgb(106, 234, 74);
 }
 
-.nav--button-four a{
-    background-color: rgb(254, 93, 35);
-}
-.nav--button-four a:hover {
-    background-color: rgb(255, 113, 61);
+.nav-blog--button a {
+    background-color: rgb(245, 108, 57) ;
 }
