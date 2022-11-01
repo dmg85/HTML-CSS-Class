@@ -38,9 +38,9 @@ h1 {
     background-color: rgb(75, 120, 254);
 }
 
-.nav--button-four a{
+.nav--button-blog a{
     background-color: rgb(254, 93, 35);
 }
-.nav--button-four a:hover {
+.nav--button-blog a:hover {
     background-color: rgb(255, 113, 61);
 }
