@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 132, 83);
+    margin: 0;
+}
+
+section {
+    width: 80%;
+    min-width: 100px;
+    max-width: 700px;
+    min-height: 150px;
+    margin: 5% auto;
+    background-color: rgb(253, 253, 253);
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.project-section {
+    background-color: rgb(62, 62, 62);
+}
+
+.project-section h1 {
+    color: aliceblue;
+}
