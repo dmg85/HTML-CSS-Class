@@ -11,44 +11,36 @@ body {
 
 .box {
     text-align: center;
-    margin: 5% auto;
-    max-width: 50%;
-    height:auto;
+    margin: auto;
+    max-width: 60%;
+    max-height: fit-content;
     color: white;
-    padding: 15px;
-    align-items: center;
+    padding:3%;
     outline: ridge rgb(55, 54, 54);
     border-radius: 2rem;
 }
 
-.fa-brands fa-css3-alt fa-6x {
-    
+.icon {
+    padding: 2%;
+    align-items: center;
 }
 
 .title {
+    margin: auto;
+    width: 60%;
     background-color: rgb(55, 54, 54);
-    padding: 15px;
-    margin: 5px;
     border-radius: 5px;
-    text-align: center;
-    outline: 8px ridge rgb(194, 193, 193); 
-
-}
-
-.icon {
-    display:;
+    outline: 8px ridge rgb(194, 193, 193);
     position: relative;
-    align-items: center;
+
 }
 
 .inside--box {
     background-color:rgb(55, 54, 54); 
-    margin: 5px;  
     border-radius: 5px; 
     padding: 15px;
     outline: 8px ridge rgb(194, 193, 193);
-    position: relative;
-    bottom: 8px;
+    bottom: 25px;
 }
  
 
