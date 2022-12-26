@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: rgb(220, 217, 217);
 }
 
 .navbar {
@@ -46,21 +47,112 @@ body {
 }
 
 .sidebar {
+    position: relative;
     background-color: #4dc100;
-    width: 25%;
+    width: 200px;
     height: 80vh;
-    display: grid;
-    grid-template-columns: 200px;
-    color:#358600
+    color:#358600;
+    display: inline-block;
 }
 
-.sidebar li {
-    background-color: #fcfff9;
-    width: 100%;
-    height: 20%;
-    margin: 10%;
-    border-radius: 5px;
-    list-style:none;
+/* Taken from freecodecamp ("10 ways to center a div")
+https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/ */
 
-    
+.sidebar-container1 {
+    position: absolute;
+    background-color: #fcfff9;
+    color: black;
+    width: 78%;
+    height:15%;
+    border-radius: 5px;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.sidebar-container1 p {
+    position: relative;
+    text-align: center;
+    line-height: 60px;
+}
+
+.sidebar-container2 {
+    position: absolute;
+    background-color: #fcfff9;
+    color: black;
+    width: 78%;
+    height:15%;
+    border-radius: 5px;
+    top: 7rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.sidebar-container2 p {
+    position: relative;
+    text-align: center;
+    line-height: 60px;
+}
+
+.sidebar-container3 {
+    position: absolute;
+    background-color: #fcfff9;
+    color: black;
+    width: 78%;
+    height:15%;
+    border-radius: 5px;
+    top: 13rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.sidebar-container3 p {
+    position: relative;
+    text-align: center;
+    line-height: 60px;
+}
+
+.sidebar-container4 {
+    position: absolute;
+    background-color: #fcfff9;
+    color: black;
+    width: 78%;
+    height:15%;
+    border-radius: 5px;
+    top: 19rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.sidebar-container4 p {
+    position: relative;
+    text-align: center;
+    line-height: 60px;
+}
+
+.right-text {
+    display: inline-block;
+    width: 45%;
+    text-align: justify;
+    margin: 5px 120px;
+}
+.footer{
+    background-color: #3d9602;
+    list-style: none;
+    width:100vw;
+    height: 20vh;
+    padding: 10px;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+.footer li {
+    color: aliceblue;
+    min-width: 100px;
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    text-align: center;
+
 }
