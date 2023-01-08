@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: oswald, sans-serif;
+}
+
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color:deepskyblue;
+}
+
+.box2 {
+    background-color:rgb(249, 151, 59);
+}
+
+.box3 {
+    background-color:rgb(7, 168, 55);
+}
+
+.box4 {
+    background-color:rgb(168, 0, 132);
+}
+
+.box5 {
+    background-color:rgb(6, 128, 236);
+}
+
+.box6 {
+    background-color:rgb(255, 227, 11);
+}
