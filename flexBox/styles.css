@@ -17,12 +17,12 @@ body {
     border: 0.3rem solid black;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
+}    
 
 .box {
-    width: 10rem;
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 
 .box1 {
