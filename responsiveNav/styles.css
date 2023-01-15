@@ -94,6 +94,7 @@ a.active,a:hover{
     }
 }
 section{
-    background: ulr(gym.jpeg) no-repeat;
+    background: url(gym.jpg) no-repeat;
     background-size: cover;
+    height: calc(100vh - 80px);
 }
