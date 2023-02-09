@@ -1,6 +1,35 @@
+:root {
+    --primary-color: #313131;
+    --secondary-color: #D05353;
+    --header-size: 4rem;
+    --font: 1.8rem;
+}
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+html {
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+}
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
+}
+main {
+    width: 100vw;
+    height: 70vh;
+    font-size: var(--font);
+}
 
+h1 {
+    font-size: 4rem;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--secondary-color);
+}
