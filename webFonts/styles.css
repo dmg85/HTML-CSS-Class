@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Manrope', sans-serif;
+}
+
+main {
+    max-width: 70%;
+    margin: 15%;
+    padding: 10%;
+    background-color: rgb(193, 219, 247);
+}
