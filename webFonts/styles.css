@@ -13,4 +13,6 @@ main {
     margin: 15%;
     padding: 10%;
     background-color: rgb(193, 219, 247);
+    border-radius: 5px;
+
 }
