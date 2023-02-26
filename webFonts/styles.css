@@ -9,10 +9,11 @@ html {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     max-width: 70%;
     margin: 15%;
     padding: 10%;
     background-color: rgb(193, 219, 247);
     border-radius: 5px;
-
 }
