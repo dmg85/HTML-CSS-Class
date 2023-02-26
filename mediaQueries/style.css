@@ -7,20 +7,3 @@
 html {
     font-family: 'Manrope', sans-serif;
 }
-
-.media-title {
-    /* display: inline-block; */
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    max-height: 500px;
-    border-radius: 3px;
-    color: rgb(17, 17, 17);
-}
-
-.ul-style {
-    color: whitesmoke;
-    background-color: rgb(44, 44, 44);
-    min-height: 20%;
-    color: rgb(250, 217, 51);
-}
