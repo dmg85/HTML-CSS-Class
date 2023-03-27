@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Responsive Image</h1>
+        <!-- <img src="./img/Small.jpg" alt="small image"> -->
+        <picture>
+            <source media="(max-width:1024px)" srcset="./img/large.jpg">
+            <source media="(max-width:768px)" srcset="./img/Medium.jpg">
+            <img src="./img/Small.jpg" alt="small image">
+        </picture>   
+    </main>
+</body>
+</html>
+
+<!-- <picture>
+    <source media="(min-width:1300px)" srcset="./img/Large.jpg" type="Large size image" />
+    <source media="(min-width:1000px)" srcset="./img/Medium.jpg" type="Medium size image" />
+    <img src="./img/Small.jpg" alt="Small size image"/>
+</picture> -->
+
+<!-- picture>source[media='max-width 799px' srcset='./img/Large.jpg' type="small size image"] -->
